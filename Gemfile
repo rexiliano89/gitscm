@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem "rake"
-gem "sinatra"
+gem "sinatra", ">= 4.0.0"
 gem "dm-core"
 gem "dm-serializer"
 gem "dm-migrations"
