@@ -1,9 +1,9 @@
 source "http://rubygems.org"
 
 gem "rake"
-gem "sinatra"
+gem "sinatra", ">= 2.0.0"
 gem "dm-core"
-gem "dm-serializer"
+gem "dm-serializer", ">= 1.2.0"
 gem "dm-migrations"
 gem "dm-validations"
 gem "dm-timestamps"
@@ -19,6 +19,6 @@ end
 group :development do
   gem "sqlite3-ruby"
   gem "dm-sqlite-adapter"
-  gem "shotgun"
+  gem "shotgun", ">= 0.9.1"
 end
 
