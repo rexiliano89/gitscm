@@ -8,7 +8,7 @@ gem "dm-migrations"
 gem "dm-validations"
 gem "dm-timestamps"
 gem "heroku"
-gem "httparty"
+gem "httparty", ">= 0.24.0"
 gem "fastercsv"
 
 group :production do
